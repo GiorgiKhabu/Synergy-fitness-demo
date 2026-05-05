@@ -1167,6 +1167,18 @@ main {
     color: vars.$accent;
   }
 
+  .table-row span[data-label="Basic"]::before {
+    color: vars.$text-muted;
+  }
+
+  .table-row span[data-label="Standard"]::before {
+    color: vars.$text;
+  }
+
+  .table-row span[data-label="Elite"]::before {
+    color: vars.$accent;
+  }
+
   .navbar-inner {
     height: auto;
     padding: 1rem 0;
@@ -1256,6 +1268,7 @@ main {
   }
 
   .complex-grid-layout {
+    width: 100%;
     display: flex;
     flex-direction: column;
     aspect-ratio: unset;
@@ -1264,5 +1277,9 @@ main {
       aspect-ratio: unset !important;
       max-height: 90vw;
     }
+  }
+
+  .gallery-thumbs {
+    width: 100%;
   }
 }
