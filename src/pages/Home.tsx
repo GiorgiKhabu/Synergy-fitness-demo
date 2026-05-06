@@ -64,7 +64,12 @@ function Home() {
             performance.
           </p>
           <div className="hero-actions">
-            <Button to="/membership">Join Now</Button>
+            <Button
+              to="https://synergyfitness.ge/agreement.php"
+              target="_blank"
+            >
+              Join Now
+            </Button>
             <Link className="link-secondary" to="/classes">
               View Classes
             </Link>

@@ -38,9 +38,13 @@ function Navbar() {
               {item.label}
             </NavLink>
           ))}
-          {/* <Button className="nav-cta" to="/membership">
+          <Button
+            className="nav-cta"
+            to="https://synergyfitness.ge/agreement.php"
+            target="_blank"
+          >
             Join Now
-          </Button> */}
+          </Button>
         </nav>
 
         <button
